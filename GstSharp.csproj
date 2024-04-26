@@ -1,6 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <PackageId>GStreamerCSharpBundle</PackageId>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <Deterministic>true</Deterministic>
         <Nullable>disable</Nullable>
