@@ -21,6 +21,8 @@
 // Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 // Boston, MA 02111-1307, USA.
 
+using GstSharpBundle;
+
 namespace GLib {
 
 	using System;
@@ -231,7 +233,7 @@ namespace GLib {
 					break;
 			}
 
-			if (result == null && NativeAotFix.DynamicLoadingSupported) {
+			if (result == null && GStreamerBundle.DynamicLoadingSupported) {
 				// Because of lazy loading of references, it's possible the type's assembly
 				// needs to be loaded.  We will look for it by name in the references of
 				// the currently loaded assemblies.  Hopefully a recursive traversal is
