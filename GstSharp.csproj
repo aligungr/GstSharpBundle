@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>GStreamerCSharpBundle</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.24.3-preview</Version>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -17,9 +17,4 @@
         <WarningLevel>0</WarningLevel>
     </PropertyGroup>
     
-    <ItemGroup>
-        <PackageReference Include="GLibSharp.GLibSharp" Version="3.22.0" />
-        <PackageReference Include="GLibSharp.GioSharp" Version="3.22.0" />
-        <PackageReference Include="GLibSharp.AtkSharp" Version="3.22.0" />
-    </ItemGroup>
 </Project>
