@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GstSharp", "GstSharp.csproj", "{5172AB4D-9D82-4EAC-A0D7-308BE697A9DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GstSharpBundle", "GstSharpBundle.csproj", "{5172AB4D-9D82-4EAC-A0D7-308BE697A9DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

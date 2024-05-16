@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>GStreamerCSharpBundle</PackageId>
-        <Version>1.24.3-preview</Version>
+        <PackageId>GstSharpBundle</PackageId>
+        <Version>1.24.3-preview1</Version>
     </PropertyGroup>
 
     <PropertyGroup>
