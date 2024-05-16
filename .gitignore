@@ -1,5 +1,5 @@
 .idea
-bin
-obj
 .vs
-packages
+/bin
+/obj
+/packages

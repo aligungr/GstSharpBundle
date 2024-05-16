@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <PackageId>GstSharpBundle</PackageId>
-        <Version>1.24.3-preview1</Version>
+        <Version>1.24.3-preview2</Version>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -16,5 +16,18 @@
     <PropertyGroup>
         <WarningLevel>0</WarningLevel>
     </PropertyGroup>
+    
+    <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)gstreamer/win-x64/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackagePath>runtimes/win-x64/native/gstreamer</PackagePath>
+            <Pack>true</Pack>
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)gstreamer/win-x86/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackagePath>runtimes/win-x86/native/gstreamer</PackagePath>
+            <Pack>true</Pack>
+        </Content>
+    </ItemGroup>
     
 </Project>
