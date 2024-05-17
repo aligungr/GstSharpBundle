@@ -1,3 +1,5 @@
-﻿dotnet pack
+﻿GStreamer C# Bundle
 
-dotnet nuget push PKG_PATH --api-key API_KEY --source https://api.nuget.org/v3/index.json
+- All required binaries are included in the bundle
+- No need to install GStreamer on the development or target environment
+- NativeAOT is supported
