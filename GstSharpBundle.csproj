@@ -5,7 +5,7 @@
     
     <PropertyGroup>
         <PackageId>GstSharpBundle</PackageId>
-        <Version>1.24.3-preview3</Version>
+        <Version>1.24.3-preview4</Version>
     </PropertyGroup>
 
     <PropertyGroup>
@@ -25,6 +25,7 @@
     <ItemGroup>
         <Content Include="$(MSBuildThisFileDirectory)gstreamer/win-x64/**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
 <!--            <PackagePath>runtimes/win-x64/native/gstreamer</PackagePath>-->
 <!--            <Pack>true</Pack>-->
         </Content>
@@ -34,5 +35,6 @@
 <!--            <Pack>true</Pack>-->
 <!--        </Content>-->
     </ItemGroup>
+    
     
 </Project>

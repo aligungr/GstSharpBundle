@@ -88,6 +88,8 @@ public static class GStreamerBundle
 
     private static void AddAdditionalDllDirectory(string path)
     {
+        path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, path);
+        
         var oldValue = Environment.GetEnvironmentVariable("PATH", EnvironmentVariableTarget.Process);
         var newValue = Path.GetFullPath(path) + Path.PathSeparator + oldValue;
         Environment.SetEnvironmentVariable("PATH", newValue, EnvironmentVariableTarget.Process);
