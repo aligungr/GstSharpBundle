@@ -1,5 +1,0 @@
-﻿GStreamer C# Bundle
-
-- All required binaries are included in the bundle
-- No need to install GStreamer on the development or target environment
-- NativeAOT is supported

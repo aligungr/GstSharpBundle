@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>GstSharpBundle</PackageId>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <WarningLevel>0</WarningLevel>
+    </PropertyGroup>
+    
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>GstSharpBundle.Windows.X64</PackageId>
+        <RootNamespace>GstSharpBundle.Windows64</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="$(MSBuildThisFileDirectory)gstreamer/win-x64/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <PackageCopyToOutput>true</PackageCopyToOutput>
+            <!--            <PackagePath>runtimes/win-x64/native/gstreamer</PackagePath>-->
+            <!--            <Pack>true</Pack>-->
+        </Content>
+    </ItemGroup>
+
+
+</Project>
